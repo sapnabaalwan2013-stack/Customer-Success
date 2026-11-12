@@ -1,0 +1,11 @@
+# Secrets — never commit these
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated agent output (re-created on every run)
+output/
